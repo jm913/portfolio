@@ -1,0 +1,132 @@
+.navbar {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(22, 47, 47);
+    top: 0;
+    right: 0px;
+    padding-top: 30px;
+}
+
+.navbar.bar {
+    right: -200px;
+}
+
+#btn,
+#cancel {
+    display: block;
+}
+
+.navbar a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    height: 380px;
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px aqua;
+}
+
+.pic-border {
+    height: 370px;
+    width: 370px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px aqua;
+    background: url(mypic.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.about-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    height: 220px;
+    width: 220px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px aqua;
+    margin-top: 70px;
+}
+
+.about-img-border {
+    height: 213px;
+    width: 213px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px aqua;
+    background: url(mypic2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.heading2 {
+    margin-top: 70px;
+}
+
+.contact-text h2 {
+    font-size: 60px;
+}
+
+.contact-text p {
+    font-size: 16px;
+}
+
+.skillss {
+    flex-direction: column;
+}
+
+.container1 {
+    /* height: 100vh; */
+    width: 100%;
+    /* padding: 75px 40px; */
+    /* margin-left: 120px; */
+}
+
+.contact {
+    flex-wrap: wrap;
+
+}
+
+.imgg{
+    margin-top: -70px;
+    height: 400px;
+    width: 400px;
+filter: drop-shadow(10px 10px 10px rgb(1, 12, 12));
+cursor: pointer;
+padding:20px ;
+
+} .goo{
+    margin-top: 70px;
+    
+}
+#project{
+    margin-top: 100px;
+}
